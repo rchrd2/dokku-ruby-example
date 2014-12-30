@@ -15,12 +15,12 @@ foreman start
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
+## Deploying to Dokku
 
 ```
-heroku create
-git push heroku master
-heroku open
+git remote add dokku dokku@<dokku-server>:dokku-ruby-example
+git push dokku master
+# open dokku-ruby-example.<dokku-server>
 ```
 
 ## Documentation
